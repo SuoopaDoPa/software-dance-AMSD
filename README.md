@@ -2,8 +2,8 @@
 
 > **AMSD** — AI-MCP-based Software Dance
 >
-> 용어 창시: **박정진 (Park Jeongjin)**, 2026년 11월 6일
-> First coined by Park Jeongjin, November 6, 2026
+> 용어 창시: **박정진 (Park JungJin)**, 2026년 11월 6일
+> First coined by Park JungJin, November 6, 2026
 
 ---
 
