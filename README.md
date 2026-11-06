@@ -13,9 +13,9 @@
 
 이들 중 상당수가 AI를 업무에 쓰고 싶어 하지만, 자기 일에 들어맞는 활용 모델이 없어서 시도 앞에서 주춤한다. AI가 자기 분야의 전문 소프트웨어를 직접 다룰 수 있다는 것, 그리고 여러 도구를 거쳐 결과물을 끝까지 끌고 갈 수 있다는 것 — 이 방식 자체를 모르기 때문이다.
 
-소프트웨어 댄스는 그 공백에 이름과 형태를 주기 위한 용어다. 이 용어의 목적은 과시가 아니라, **시도를 주저하는 실무자에게 따라 할 수 있는 모델을 제시하는 것**이다.
+소프트웨어 댄스는 그 공백을 메우기 위한 용어이며, 하는 일은 두 가지다. **새로운 길을 개척하는 행위에 정의를 주는 것**, 그리고 **시도를 주저하는 실무자에게 따라 할 수 있는 모델을 제시하는 것**. 이름이 생기면 그 행위는 논의할 수 있는 것이 되고, 모델이 생기면 따라 할 수 있는 것이 된다.
 
-**Why this term exists.** Public understanding of applied AI has stalled at two models: *vibe coding* (developers making software with AI) and *office automation* (clerical work made faster). Between them lies a vast gap — practitioners who work through professional software: designers, manufacturing and QC engineers, video editors, architects. Many of them want to use AI at work but freeze at the attempt, because no usage model fits their job. Software Dance names that gap, and exists to hand hesitant practitioners a model they can follow.
+**Why this term exists.** Public understanding of applied AI has stalled at two models: *vibe coding* (developers making software with AI) and *office automation* (clerical work made faster). Between them lies a vast gap — practitioners who work through professional software: designers, manufacturing and QC engineers, video editors, architects. Many of them want to use AI at work but freeze at the attempt, because no usage model fits their job. Software Dance fills that gap by doing two things: it gives a *definition* to the act of pioneering a new path, and it hands hesitant practitioners a *model* they can follow. A name makes the act discussable; a model makes it repeatable.
 
 ## 정의
 
