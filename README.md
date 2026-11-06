@@ -7,6 +7,16 @@
 
 ---
 
+## 왜 이 용어가 필요한가
+
+대중의 AI 활용 인식은 두 갈래에 멈춰 있다. **바이브 코딩** — 개발자가 AI로 코드를 만드는 것. **사무 자동화** — 사무직이 AI로 메일·보고서·반복 업무를 줄이는 것. 그 사이에 거대한 공백이 있다: **전문 소프트웨어로 일하는 실무자들**이다. 설계자, 제조·품질 담당자, 영상 편집자, 건축가 — 이들의 업무는 코딩도 아니고 문서 작업도 아니다.
+
+이들 중 상당수가 AI를 업무에 쓰고 싶어 하지만, 자기 일에 들어맞는 활용 모델이 없어서 시도 앞에서 주춤한다. AI가 자기 분야의 전문 소프트웨어를 직접 다룰 수 있다는 것, 그리고 여러 도구를 거쳐 결과물을 끝까지 끌고 갈 수 있다는 것 — 이 방식 자체를 모르기 때문이다.
+
+소프트웨어 댄스는 그 공백에 이름과 형태를 주기 위한 용어다. 이 용어의 목적은 과시가 아니라, **시도를 주저하는 실무자에게 따라 할 수 있는 모델을 제시하는 것**이다.
+
+**Why this term exists.** Public understanding of applied AI has stalled at two models: *vibe coding* (developers making software with AI) and *office automation* (clerical work made faster). Between them lies a vast gap — practitioners who work through professional software: designers, manufacturing and QC engineers, video editors, architects. Many of them want to use AI at work but freeze at the attempt, because no usage model fits their job. Software Dance names that gap, and exists to hand hesitant practitioners a model they can follow.
+
 ## 정의
 
 **소프트웨어 댄스(Software Dance)** 는 AI가 MCP(Model Context Protocol)를 통해 각 도메인에 전문화된 소프트웨어들을 넘나들며, 하나의 목표를 향해 작업물의 완성도를 높여가는 작업 방식이다.
