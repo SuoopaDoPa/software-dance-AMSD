@@ -1,0 +1,57 @@
+# 소프트웨어 댄스 (Software Dance)
+
+> **AMSD** — AI-MCP-based Software Dance
+>
+> 용어 창시: **박정진 (Park Jeongjin)**, 2026년 11월 6일
+> First coined by Park Jeongjin, November 6, 2026
+
+---
+
+## 정의
+
+**소프트웨어 댄스(Software Dance)** 는 AI가 MCP(Model Context Protocol)를 통해 각 도메인에 전문화된 소프트웨어들을 넘나들며, 하나의 목표를 향해 작업물의 완성도를 높여가는 작업 방식이다.
+
+모델링은 CAD로, 애니메이션은 3D 그래픽 도구로, 문서는 워드프로세서로 — 원래 여러 직업(도메인)의 사람들이 핸드오프하며 수행하던 작업을, 하나의 AI가 **맥락을 유지한 채** 전문 도구만 갈아타며 수행한다.
+
+**Software Dance** is a way of working in which an AI, via MCP (Model Context Protocol), moves across domain-specialized software tools — CAD for modeling, 3D graphics tools for animation, word processors for documentation — carrying a single goal and full context, raising the quality of one deliverable through each tool. Work that used to be handed off between people of different professions is performed by one AI that keeps the context and only switches instruments.
+
+## 왜 "댄스"인가
+
+기존 용어들은 이 방식을 담지 못한다.
+
+| 기존 용어 | 한계 |
+|---|---|
+| 파이프라인 (pipeline) | 일방향 직선. 되돌아가거나 순서를 바꾸는 유연함이 없다 |
+| 오케스트레이션 (orchestration) | AI 에이전트끼리의 분업. 산출물의 품질 상한이 모델 능력에 묶인다 |
+| 툴체인 (toolchain) | 개발 도구 중심의 기계적 연결 |
+| 라운드트리핑 (round-tripping) | 두 도구 사이의 왕복에 한정 |
+
+소프트웨어 댄스는 다르다. 필요하면 되돌아가고, 순서를 바꾸고, 각 도메인에서 수십 년 쌓인 **진짜 전문 도구의 엔진**을 빌린다. 파트너(도구)를 바꿔가며 추지만, 춤추는 주체와 음악(목표·맥락)은 하나로 이어진다. 그래서 춤이다.
+
+핵심 차별점 세 가지:
+
+1. **AI 안에 갇히지 않는다** — 멀티 에이전트 오케스트레이션은 LLM 여러 개의 역할 분담이지만, 소프트웨어 댄스는 CAD의 파라메트릭 커널, 렌더 엔진, 조판 엔진 같은 실제 전문 엔진을 사용한다.
+2. **각 단계가 검증 가능하다** — 전문 소프트웨어의 산출물은 검증 가능한 포맷이다. STEP 파일의 지오메트리는 수학적으로 정의되고, 간섭 체크와 질량 계산이 도구 안에서 돌아간다. LLM이 텍스트로 생성하는 "대략 이런 형상"과는 신뢰 수준이 다르다.
+3. **핸드오프 손실이 사라진다** — 사람 간 핸드오프마다 발생하던 의도 전달 손실과 대기 시간이, 한 AI가 맥락을 유지하므로 사라진다.
+
+## 용어의 유래
+
+처음에는 **툴댄스(Tool Dance)** 로 지으려 했다. 그러나 CNC 5축 가공 분야에서 공구가 틸팅·회전하며 움직이는 것을 이미 툴댄스라 부르고 있었다. 용어 충돌을 피하면서 오히려 더 정확한 이름에 도착했다 — 이 방식의 핵심은 범용 '툴'이 아니라 각 도메인의 전문 '소프트웨어'를 거친다는 것이기 때문이다.
+
+## 약어: AMSD
+
+**AMSD** = **A**I-**M**CP-based **S**oftware **D**ance
+
+해시태그, 저장소명, 검색 키워드로 사용한다. 본문과 대화에서는 "소프트웨어 댄스"로 부른다.
+
+## 실천 사례
+
+창시자가 이 용어를 만들기 전부터 실제로 수행해 온 방식이다. 한 예로, 화장품 용기 리디자인 제안 한 건을 다음의 흐름으로 완결했다:
+
+실측·3D 스캔 데이터 기반 AI 역설계 → Fusion 360 모델링 (MCP) → 레진 3D 프린터 출력으로 기구 검증 → AI로 설계치수 정형화 → STEP·CAD 도면 문서화 → 워킹 목업 제작 → 고객사 제안 → 특허 선행조사(KIPRIS·해외 특허/실용신안/디자인) → 특허 출원용 모델링·도면 제작
+
+설계자, 시제품 기사, 문서 담당자, 특허 조사원 — 원래 네 사람의 일을, 하나의 AI와 전문 소프트웨어들로 한 흐름 안에서 수행했다.
+
+## 라이선스
+
+이 문서는 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.ko)을 따른다. 용어는 자유롭게 사용하되, 개념의 출처를 표기해 주기 바란다: **"소프트웨어 댄스(Software Dance), 박정진, 2026"**
