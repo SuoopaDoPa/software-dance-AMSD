@@ -15,6 +15,15 @@
 
 **Software Dance** is a way of working in which an AI, via MCP (Model Context Protocol), moves across domain-specialized software tools — CAD for modeling, 3D graphics tools for animation, word processors for documentation — carrying a single goal and full context, raising the quality of one deliverable through each tool. Work that used to be handed off between people of different professions is performed by one AI that keeps the context and only switches instruments.
 
+## 성립 조건
+
+소프트웨어 댄스는 다음 두 조건 위에서 성립한다.
+
+1. **불균등한 숙련도의 사용자** — 사용자는 여러 전문 소프트웨어를 다룰 수 있으나, 자신의 전문 도메인 밖에서는 활용도가 떨어진다. AI는 이 숙련도 격차를 메우고, 사용자는 각 단계의 결과를 판단한다. 완전 초보는 AI의 작업을 검증할 수 없고, 전 분야 전문가는 애초에 AI가 필요 없다 — 춤추는 주체는 AI 단독이 아니라 **사용자-AI 쌍**이다.
+2. **단일 맥락 안의 작업물** — 작업물과 그 맥락(치수, 설계 의도, 제약 조건)은 하나의 AI 세션과 사용자 사이에서 소실 없이 흐르며, 각 단계에서 해당 도메인의 전문 소프트웨어로 가공된다. 사람 간 핸드오프에서는 파일만 넘어가고 의도는 넘어가지 않지만, 소프트웨어 댄스에서는 의도가 살아 있는 채로 다음 도구에 도달한다.
+
+**Preconditions.** Software Dance holds under two conditions: (1) a user with *uneven proficiency* — able to operate multiple professional tools, but far less fluent outside their own domain; the AI fills the proficiency gap while the user judges each stage's output, so the dancing subject is the user-AI pair, not the AI alone. (2) the *work-in-progress stays in a single context* — the deliverable and its context (dimensions, design intent, constraints) flow losslessly between one AI session and the user, processed at each stage by that domain's professional software; the intent that is lost in human-to-human handoffs arrives alive at the next tool.
+
 ## 왜 "댄스"인가
 
 기존 용어들은 이 방식을 담지 못한다.
