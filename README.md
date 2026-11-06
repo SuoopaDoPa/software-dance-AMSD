@@ -71,6 +71,20 @@
 
 설계자, 시제품 기사, 문서 담당자, 특허 조사원 — 원래 네 사람의 일을, 하나의 AI와 전문 소프트웨어들로 한 흐름 안에서 수행했다.
 
+## 댄스에서 안무로 — 자동화로의 이행
+
+소프트웨어 댄스는 종착점이 아니라 **선행 단계**다.
+
+처음 추는 춤은 즉흥이다. 순서를 바꾸고, 되돌아가고, 경로를 몸으로 탐색한다. 그러나 같은 춤을 반복하면 스텝이 정형화된다 — **안무(choreography)** 가 된다. 안무가 확정된 흐름은 더 이상 사용자가 매번 출 필요가 없으며, 고정된 자동화 워크플로우로 응고될 수 있다.
+
+무엇을 자동화해야 하는지를 미리 아는 사람은 없다. 춤을 춰본 사람만이 안무를 쓸 수 있다. 소프트웨어 댄스는 **자동화할 흐름을 발견하는 과정 그 자체**이며, 기존 자동화 담론이 비워 두었던 "자동화 대상의 발견" 단계에 이름을 준다.
+
+댄스는 자동화에 흡수되어 사라지지 않는다. 정형화된 흐름을 자동화에 넘겨주고, 사용자-AI 쌍은 다음 미탐색 문제로 옮겨간다. 댄스는 언제나 최전선의 활동이다.
+
+경계도 분명하다. 모든 댄스가 안무가 되는 것은 아니다 — 반복되는 흐름만 자동화할 가치가 있고, 1회성 작업은 댄스로 완결된다.
+
+**From dance to choreography.** Software Dance is not an endpoint but a precursor stage. The first dance is improvisation — reordering, backtracking, exploring the path. Repeated, the steps crystallize into choreography, and a settled choreography can harden into a fixed automated workflow. No one knows in advance what to automate; only those who have danced can write the choreography. Software Dance is thus the discovery process for automation itself — and it never disappears: it hands the settled flow to automation and moves on, with the user-AI pair, to the next unexplored problem. Not every dance becomes choreography — only recurring flows earn automation; one-off work completes as a dance.
+
 ## 라이선스
 
 이 문서는 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.ko)을 따른다. 용어는 자유롭게 사용하되, 개념의 출처를 표기해 주기 바란다: **"소프트웨어 댄스(Software Dance), 박정진, 2026"**
