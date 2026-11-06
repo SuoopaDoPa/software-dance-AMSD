@@ -30,32 +30,44 @@
 소프트웨어 댄스는 다음 두 조건 위에서 성립한다.
 
 1. **불균등한 숙련도의 사용자** — 사용자는 여러 전문 소프트웨어를 다룰 수 있으나, 자신의 전문 도메인 밖에서는 활용도가 떨어진다. AI는 이 숙련도 격차를 메우고, 사용자는 각 단계의 결과를 판단한다. 완전 초보는 AI의 작업을 검증할 수 없고, 전 분야 전문가는 애초에 AI가 필요 없다 — 춤추는 주체는 AI 단독이 아니라 **사용자-AI 쌍**이다.
-2. **단일 맥락 안의 작업물** — 작업물과 그 맥락(치수, 설계 의도, 제약 조건)은 하나의 AI 세션과 사용자 사이에서 소실 없이 흐르며, 각 단계에서 해당 도메인의 전문 소프트웨어로 가공된다. 사람 간 핸드오프에서는 파일만 넘어가고 의도는 넘어가지 않지만, 소프트웨어 댄스에서는 의도가 살아 있는 채로 다음 도구에 도달한다.
+2. **단일 맥락 안의 작업물** — 작업물과 그 맥락(치수, 설계 의도, 제약 조건)은 하나의 AI 세션과 사용자 사이에서 **소실을 최소화하며** 흐르고, 각 단계에서 해당 도메인의 전문 소프트웨어로 가공된다. 맥락 유지는 보장이 아니라 지향이다 — 세션에는 한계가 있으므로, **진실의 기준은 언제나 세션의 기억이 아니라 작업물의 최신 상태**(저장된 CAD 파일, 확정된 도면)이며, 사용자와 AI는 이 기준에 맞춰 맥락을 재동기화한다. 그럼에도 사람 간 핸드오프와의 차이는 뚜렷하다: 파일만 넘어가는 핸드오프와 달리, 의도가 살아 있는 채로 다음 도구에 도달한다.
 
-**Preconditions.** Software Dance holds under two conditions: (1) a user with *uneven proficiency* — able to operate multiple professional tools, but far less fluent outside their own domain; the AI fills the proficiency gap while the user judges each stage's output, so the dancing subject is the user-AI pair, not the AI alone. (2) the *work-in-progress stays in a single context* — the deliverable and its context (dimensions, design intent, constraints) flow losslessly between one AI session and the user, processed at each stage by that domain's professional software; the intent that is lost in human-to-human handoffs arrives alive at the next tool.
+**Preconditions.** Software Dance holds under two conditions: (1) a user with *uneven proficiency* — able to operate multiple professional tools, but far less fluent outside their own domain; the AI fills the proficiency gap while the user judges each stage's output, so the dancing subject is the user-AI pair, not the AI alone. (2) the *work-in-progress stays in a single context* — the deliverable and its context (dimensions, design intent, constraints) flow with minimal loss between one AI session and the user, processed at each stage by that domain's professional software. Context-keeping is an aim, not a guarantee: sessions have limits, so the source of truth is always the artifact's latest state (the saved CAD file, the confirmed drawing), never the session's memory, and the pair resynchronizes against it. Still, the contrast with human handoffs holds — intent arrives alive at the next tool instead of being lost with the file transfer.
 
 ## 왜 "댄스"인가
 
-기존 용어들은 이 방식을 담지 못한다.
+기존 용어들과 겹치는 부분이 있지만, 중심에 놓는 것이 다르다.
 
-| 기존 용어 | 한계 |
-|---|---|
-| 파이프라인 (pipeline) | 일방향 직선. 되돌아가거나 순서를 바꾸는 유연함이 없다 |
-| 오케스트레이션 (orchestration) | AI 에이전트끼리의 분업. 산출물의 품질 상한이 모델 능력에 묶인다 |
-| 툴체인 (toolchain) | 개발 도구 중심의 기계적 연결 |
-| 라운드트리핑 (round-tripping) | 두 도구 사이의 왕복에 한정 |
+| 용어 | 중심에 놓는 것 | 소프트웨어 댄스와의 차이 |
+|---|---|---|
+| 파이프라인 (pipeline) | 작업 흐름의 구조 | 흐름이 사전에 설계되어 있다. 댄스는 흐름 자체를 작업 중에 발견한다 |
+| 오케스트레이션 (orchestration) | 구성 요소의 조정 | 조정의 효율이 목적이다. 댄스는 사용자-AI 쌍의 공동 판단이 목적이다 |
+| 툴체인 (toolchain) | 도구의 연결 | 데이터가 전달된다. 댄스는 데이터에 얽힌 의도와 제약까지 함께 흐른다 |
+| 에이전틱 워크플로우 (agentic workflow) | AI의 자율 실행 | AI가 주체다. 댄스는 사용자가 각 단계를 판단하는 쌍이 주체다 |
 
-소프트웨어 댄스는 다르다. 필요하면 되돌아가고, 순서를 바꾸고, 각 도메인에서 수십 년 쌓인 **진짜 전문 도구의 엔진**을 빌린다. 파트너(도구)를 바꿔가며 추지만, 춤추는 주체와 음악(목표·맥락)은 하나로 이어진다. 그래서 춤이다.
+이 개념들은 서로 배타적이지 않다. 하나의 작업이 툴체인 위에서, 오케스트레이션 구조로, 소프트웨어 댄스 방식으로 수행될 수 있다. 댄스가 이름 붙이는 것은 기술 구조가 아니라 **작업 방식과 그 경험**이다.
+
+필요하면 되돌아가고, 순서를 바꾸고, 각 도메인에서 수십 년 쌓인 **진짜 전문 도구의 엔진**을 빌린다. 파트너(도구)를 바꿔가며 추지만, 춤추는 주체와 음악(목표·맥락)은 하나로 이어진다. 그래서 춤이다.
 
 핵심 차별점 세 가지:
 
 1. **AI 안에 갇히지 않는다** — 멀티 에이전트 오케스트레이션은 LLM 여러 개의 역할 분담이지만, 소프트웨어 댄스는 CAD의 파라메트릭 커널, 렌더 엔진, 조판 엔진 같은 실제 전문 엔진을 사용한다.
-2. **각 단계가 검증 가능하다** — 전문 소프트웨어의 산출물은 검증 가능한 포맷이다. STEP 파일의 지오메트리는 수학적으로 정의되고, 간섭 체크와 질량 계산이 도구 안에서 돌아간다. LLM이 텍스트로 생성하는 "대략 이런 형상"과는 신뢰 수준이 다르다.
-3. **핸드오프 손실이 사라진다** — 사람 간 핸드오프마다 발생하던 의도 전달 손실과 대기 시간이, 한 AI가 맥락을 유지하므로 사라진다.
+2. **각 단계가 검증 가능하다** — 전문 소프트웨어의 산출물은 검증 가능한 포맷이다. STEP 파일의 지오메트리는 수학적으로 정의되고, 간섭 체크와 질량 계산이 도구 안에서 돌아간다. 검증은 사용자의 눈이 아니라 도구와 실물에서 일어난다 — 간섭 체크, 시제품 출력, 조립 확인. LLM이 텍스트로 생성하는 "대략 이런 형상"과는 신뢰 수준이 다르다.
+3. **핸드오프 손실이 줄어든다** — 사람 간 핸드오프에서는 파일만 넘어가고 의도는 문서와 말로 다시 설명해야 한다. 한 세션이 맥락을 유지하면 그 재설명 비용이 크게 줄어든다.
 
 ## 용어의 유래
 
 처음에는 **툴댄스(Tool Dance)** 로 지으려 했다. 그러나 CNC 5축 가공 분야에서 공구가 틸팅·회전하며 움직이는 것을 이미 툴댄스라 부르고 있었다. 용어 충돌을 피하면서 오히려 더 정확한 이름에 도착했다 — 이 방식의 핵심은 범용 '툴'이 아니라 각 도메인의 전문 '소프트웨어'를 거친다는 것이기 때문이다.
+
+## 관련 개념
+
+소프트웨어 댄스를 구성 요소로 분해하면, 각 요소는 선행 연구가 있다.
+
+- **Mixed-Initiative Interaction** (Horvitz, 1999) — 인간과 시스템이 작업 주도권을 동적으로 교환하는 상호작용. 댄스의 "사용자가 판단하고 AI가 실행한다"는 구조의 학술적 선행이다.
+- **Coactive Design** (Johnson et al., 2011) — 인간-기계 협업의 상호의존성을 중심에 놓는 설계론. 댄스의 사용자-AI 쌍 개념과 맞닿아 있다.
+- **Agentic Workflow** — AI가 외부 도구를 호출하며 작업을 수행하는 구조. 댄스의 기술적 기반이지만, AI의 자율 실행을 중심에 놓는다는 점에서 다르다.
+
+소프트웨어 댄스는 이 선행 개념들을 부정하는 것이 아니라, 그 **교차점에서 일어나는 실무자의 작업 경험에 이름을 붙인 것**이다: 불균등한 숙련도의 실무자가, AI와 쌍을 이뤄, 여러 도메인의 전문 소프트웨어를 거쳐, 하나의 결과물을 완성하는 경험. 구성 요소는 새롭지 않더라도, 이 조합이 이제 막 일상이 되었고, 일상이 된 경험에는 부를 이름이 필요하다.
 
 ## 약어: AMSD
 
